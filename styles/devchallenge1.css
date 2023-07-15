@@ -32,7 +32,6 @@ body{
 } 
 .section-1-info{
     margin-top: 50px;
-  
     padding-right: 50px;
  
 }
@@ -53,4 +52,23 @@ font-size: 20px;
 font-weight: 700;
 background-color: #333;
 padding: 20px 30px;
+margin-top: 25px;
+}
+@media screen and (max-width:576px) {
+    .section-1-container{
+        flex-direction: column;
+    }
+    .section-1-info{
+        padding: 0px 20px 30px 25px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:992px) {
+    .section-1-container{
+        flex-direction: column;
+    }
+    .section-1-info button{
+        margin: 25px;
+    }
+
 }
